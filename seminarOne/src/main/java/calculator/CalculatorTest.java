@@ -45,6 +45,23 @@ public class CalculatorTest {
 //        assertThat(Calculator.calculation(2, 7, '*')).isEqualTo(14);
 //        assertThat(Calculator.calculation(100, 50, '/')).isEqualTo(2);
 
+
+        // HW01 Bildina E: В классе Calculator создайте метод calculateDiscount,
+        // который принимает сумму покупки и процент скидки и возвращает сумму
+        // с учетом скидки.
+        // Задача - проверить этот метод с использованием библиотеки AssertJ.
+        // Если метод calculateDiscount получает недопустимые аргументы,
+        // он должен выбрасывать исключение ArithmeticException
+        assert 9 == Calculator.calculatingDiscount(10,1);
+        assertThat(Calculator.calculatingDiscount(10,1)).isEqualTo(9);
+
+
+
+
+
+
+
+
         // Проверка ожидаемого исключения, с использованием утверждений AssertJ:
 //        assertThatThrownBy(() ->
 //                Calculator.calculation(8, 4, '_')
