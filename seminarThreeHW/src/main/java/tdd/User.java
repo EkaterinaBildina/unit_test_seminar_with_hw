@@ -1,4 +1,4 @@
-package seminars.third.tdd;
+package tdd;
 
 public class User {
 
@@ -18,5 +18,4 @@ public class User {
         isAuthenticate = (name.equals(this.name)) && (password.equals(this.password));
         return isAuthenticate;
     }
-
 }
